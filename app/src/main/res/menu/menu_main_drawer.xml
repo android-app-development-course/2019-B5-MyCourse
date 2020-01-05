@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group_course"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_timetable"
+            android:icon="@drawable/timetable"
+            android:title="@string/main_menu_timetable" />
+        <item
+            android:id="@+id/nav_course"
+            android:icon="@drawable/course"
+            android:title="@string/main_menu_course" />
+        <item
+            android:id="@+id/nav_experiment"
+            android:icon="@drawable/experiment"
+            android:title="@string/main_menu_experiment" />
+        <item
+            android:id="@+id/nav_assignment"
+            android:icon="@drawable/assignment"
+            android:title="@string/main_menu_assignment" />
+    </group>
+
+    <group
+        android:id="@+id/group_tools"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_reminder"
+            android:icon="@drawable/reminder"
+            android:title="@string/main_menu_reminder" />
+        <item
+            android:id="@+id/nav_notepad"
+            android:icon="@drawable/notepad"
+            android:title="@string/main_menu_notepad" />
+        <item
+            android:id="@+id/nav_address"
+            android:icon="@drawable/address"
+            android:title="@string/main_menu_address" />
+    </group>
+
+<!--    <group-->
+<!--        android:id="@+id/group_settings"-->
+<!--        android:checkableBehavior="single">-->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_settings"-->
+<!--            android:icon="@drawable/settings"-->
+<!--            android:title="@string/main_menu_settings" />-->
+<!--    </group>-->
+</menu>

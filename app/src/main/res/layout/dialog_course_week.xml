@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_course_add_select_week"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/borderBackground"
+    android:orientation="vertical">
+    <!-- 标题 -->
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/TextViewDialogTitle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightBackground"
+        android:paddingLeft="@dimen/spacing_10"
+        android:paddingRight="@dimen/spacing_10">
+
+        <TextView
+            style="@style/TextViewDialog"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/dialog_course_week_max" />
+
+        <EditText
+            android:id="@+id/et_max_week"
+            style="@style/EditTextDialog"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightBackground"
+        android:paddingLeft="@dimen/spacing_10"
+        android:paddingRight="@dimen/spacing_10">
+
+        <TextView
+            style="@style/TextViewDialog"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/dialog_course_week_number" />
+
+        <CheckBox
+            android:id="@+id/cb_week_all"
+            style="@style/CheckBoxDialog"
+            android:text="@string/dialog_course_week_all" />
+
+        <CheckBox
+            android:id="@+id/cb_week_odd"
+            style="@style/CheckBoxDialog"
+            android:text="@string/dialog_course_week_odd" />
+
+        <CheckBox
+            android:id="@+id/cb_week_even"
+            style="@style/CheckBoxDialog"
+            android:text="@string/dialog_course_week_even" />
+    </LinearLayout>
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/layout_week_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightBackground"
+        android:padding="@dimen/spacing_10"
+        app:columnCount="5">
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_2"
+        android:background="@color/lightBackground">
+
+        <Button
+            android:id="@+id/btn_dialog_course_week_cancel"
+            style="@style/ButtonDialog"
+            android:text="@string/btn_cancel" />
+
+        <Button
+            android:id="@+id/btn_dialog_course_week_ok"
+            style="@style/ButtonDialog"
+            android:text="@string/btn_ok" />
+    </LinearLayout>
+</LinearLayout>

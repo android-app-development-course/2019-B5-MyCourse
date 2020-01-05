@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/popup_address_open"
+        android:title="@string/address_popup_open"/>
+
+    <item
+        android:id="@+id/popup_address_edit"
+        android:title="@string/address_popup_edit"/>
+
+    <item
+        android:id="@+id/popup_address_delete"
+        android:title="@string/address_popup_delete"/>
+</menu>

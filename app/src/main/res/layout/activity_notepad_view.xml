@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".notepad.NoteViewActivity"
+    android:background="@color/lightBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/tv_note_view_time"
+            style="@style/TextViewNoteLight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/notepad_view_time" />
+
+        <TextView
+            android:id="@+id/tv_note_view_title"
+            style="@style/TextViewNoteDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="12dp"
+            android:background="#CCCCCC" />
+
+        <TextView
+            style="@style/TextViewNoteDark"
+            android:id="@+id/tv_note_view_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start|top" />
+    </LinearLayout>
+</ScrollView>

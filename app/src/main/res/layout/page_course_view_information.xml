@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:stretchColumns="1">
+
+        <!-- 课程名称 -->
+        <TableRow style="@style/TableRowAttribute">
+
+            <TextView
+                style="@style/TextViewAttribute"
+                android:text="@string/course_information_name" />
+
+            <TextView
+                android:id="@+id/tv_course_information_name"
+                style="@style/TextViewValue" />
+        </TableRow>
+        <!-- 课程类型 -->
+        <TableRow style="@style/TableRowAttribute">
+
+            <TextView
+                style="@style/TextViewAttribute"
+                android:text="@string/course_information_type" />
+
+            <TextView
+                android:id="@+id/tv_course_information_type"
+                style="@style/TextViewValue" />
+        </TableRow>
+        <!-- 学期 -->
+        <TableRow style="@style/TableRowAttribute">
+
+            <TextView
+                style="@style/TextViewAttribute"
+                android:text="@string/course_information_semester" />
+
+            <TextView
+                android:id="@+id/tv_course_information_semester"
+                style="@style/TextViewValue" />
+        </TableRow>
+        <!-- 上课周数 -->
+        <TableRow style="@style/TableRowAttribute">
+
+            <TextView
+                style="@style/TextViewAttribute"
+                android:text="@string/course_information_week" />
+
+            <TextView
+                android:id="@+id/tv_course_information_week"
+                style="@style/TextViewValue" />
+
+        </TableRow>
+        <!-- 上课时间 -->
+        <TableRow style="@style/TableRowAttribute">
+
+            <TextView
+                style="@style/TextViewAttribute"
+                android:text="@string/course_information_time" />
+
+            <TextView
+                android:id="@+id/tv_course_information_time"
+                style="@style/TextViewValue" />
+
+        </TableRow>
+        <!-- 上课地点 -->
+        <TableRow style="@style/TableRowAttribute">
+
+            <TextView
+                style="@style/TextViewAttribute"
+                android:text="@string/course_information_place" />
+
+            <TextView
+                android:id="@+id/tv_course_information_place"
+                style="@style/TextViewValue" />
+        </TableRow>
+        <!-- 任课教师 -->
+        <TableRow style="@style/TableRowAttribute">
+
+            <TextView
+                style="@style/TextViewAttribute"
+                android:text="@string/course_information_teacher" />
+
+            <TextView
+                android:id="@+id/tv_course_information_teacher"
+                style="@style/TextViewValue" />
+        </TableRow>
+        <!-- 备注 -->
+        <TableRow style="@style/TableRowAttribute">
+
+            <TextView
+                style="@style/TextViewAttribute"
+                android:layout_span="2"
+                android:text="@string/course_information_remarks"
+                android:paddingBottom="0dp"/>
+
+        </TableRow>
+
+        <TableRow style="@style/TableRowAttribute">
+
+            <TextView
+                android:id="@+id/tv_course_information_remarks"
+                style="@style/TextViewValue"
+                android:gravity="start"
+                android:layout_span="2"
+                android:paddingLeft="5dp"
+                android:paddingStart="5dp" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>

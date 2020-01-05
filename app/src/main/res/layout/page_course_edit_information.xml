@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:stretchColumns="1">
+
+        <!-- 课程名称 -->
+        <TableRow style="@style/TableRowAttribute">
+
+            <TextView
+                style="@style/TextViewAttribute"
+                android:text="@string/course_information_name" />
+
+            <EditText
+                android:id="@+id/et_course_information_name"
+                style="@style/EditTextAttribute" />
+        </TableRow>
+        <!-- 课程类型 -->
+        <TableRow style="@style/TableRowAttribute">
+
+            <TextView
+                style="@style/TextViewAttribute"
+                android:text="@string/course_information_type" />
+
+            <Spinner
+                android:id="@+id/spn_course_information_type"
+                style="@style/SpinnerAttribute">
+
+            </Spinner>
+        </TableRow>
+        <!-- 学期 -->
+        <TableRow style="@style/TableRowAttribute">
+
+            <TextView
+                style="@style/TextViewAttribute"
+                android:text="@string/course_information_semester" />
+
+            <Spinner
+                android:id="@+id/spn_course_information_semester"
+                style="@style/SpinnerAttribute">
+
+            </Spinner>
+        </TableRow>
+        <!-- 上课周数 -->
+        <TableRow style="@style/TableRowAttribute">
+
+            <TextView
+                style="@style/TextViewAttribute"
+                android:text="@string/course_information_week" />
+
+            <EditText
+                android:id="@+id/et_course_information_week"
+                style="@style/EditTextAttribute"
+                android:focusable="false" />
+
+        </TableRow>
+        <!-- 上课时间 -->
+        <TableRow style="@style/TableRowAttribute">
+
+            <TextView
+                style="@style/TextViewAttribute"
+                android:text="@string/course_information_time" />
+
+            <EditText
+                android:id="@+id/et_course_information_time"
+                style="@style/EditTextAttribute"
+                android:focusable="false"
+                android:singleLine="false" />
+
+        </TableRow>
+        <!-- 上课地点 -->
+        <TableRow style="@style/TableRowAttribute">
+
+            <TextView
+                style="@style/TextViewAttribute"
+                android:text="@string/course_information_place" />
+
+            <EditText
+                android:id="@+id/et_course_information_place"
+                style="@style/EditTextAttribute" />
+        </TableRow>
+        <!-- 任课教师 -->
+        <TableRow style="@style/TableRowAttribute">
+
+            <TextView
+                style="@style/TextViewAttribute"
+                android:text="@string/course_information_teacher" />
+
+            <EditText
+                android:id="@+id/et_course_information_teacher"
+                style="@style/EditTextAttribute" />
+        </TableRow>
+        <!-- 备注 -->
+        <TableRow style="@style/TableRowAttribute">
+
+            <TextView
+                style="@style/TextViewAttribute"
+                android:layout_span="2"
+                android:paddingBottom="0dp"
+                android:text="@string/course_information_remarks" />
+
+        </TableRow>
+
+        <TableRow style="@style/TableRowAttribute">
+
+            <EditText
+                android:id="@+id/et_course_information_remarks"
+                style="@style/EditTextAttribute"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_span="2"
+                android:singleLine="false" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>

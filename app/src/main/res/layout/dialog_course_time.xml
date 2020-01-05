@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_course_information_time"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/borderBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- 标题 -->
+        <TextView
+            android:id="@+id/tv_dialog_course_time_title"
+            style="@style/TextViewDialogTitle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightBackground"
+            android:padding="@dimen/spacing_10">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextViewDialog"
+                    android:layout_width="match_parent"
+                    android:text="@string/dialog_course_time_day" />
+
+                <NumberPicker
+                    android:id="@+id/np_dialog_course_time_day"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </NumberPicker>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextViewDialog"
+                    android:layout_width="match_parent"
+                    android:text="@string/dialog_course_time_first" />
+
+                <NumberPicker
+                    android:id="@+id/np_dialog_course_time_first"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </NumberPicker>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextViewDialog"
+                    android:layout_width="match_parent"
+                    android:text="@string/dialog_course_time_last" />
+
+                <NumberPicker
+                    android:id="@+id/np_dialog_course_time_last"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </NumberPicker>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <com.android.mycourse.view.ScrollListView
+            android:id="@+id/lv_dialog_course_time_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_1"
+            android:background="@color/lightBackground">
+
+        </com.android.mycourse.view.ScrollListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightBackground">
+
+            <Button
+                android:id="@+id/btn_dialog_course_time_add"
+                style="@style/ButtonDialog"
+                android:text="@string/btn_add" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_2"
+            android:background="@color/lightBackground">
+
+            <Button
+                android:id="@+id/btn_dialog_course_time_cancel"
+                style="@style/ButtonDialog"
+                android:text="@string/btn_cancel" />
+
+            <Button
+                android:id="@+id/btn_dialog_course_time_ok"
+                style="@style/ButtonDialog"
+                android:text="@string/btn_ok" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

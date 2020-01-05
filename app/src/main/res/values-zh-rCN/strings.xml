@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">我的课程</string>
+    <!-- activity_main screen start -->
+    <string name="main_menu_timetable">课表</string>
+    <string name="main_menu_course">课程</string>
+    <string name="main_menu_assignment">作业</string>
+    <string name="main_menu_experiment">实验</string>
+    <string name="main_menu_reminder">事件提醒</string>
+    <string name="main_menu_notepad">记事备忘</string>
+    <string name="main_menu_address">网址收藏</string>
+    <string name="main_menu_settings">设置</string>
+    <string name="main_action_new_assignment">新建作业</string>
+    <string name="main_action_new_experiment">新建实验</string>
+    <string name="main_action_new_reminder">新建提醒</string>
+    <string name="main_action_new_note">新建备忘</string>
+    <string name="main_action_new_address">新建网址</string>
+    <!-- activity_main screen end -->
+
+    <!-- fragment_timetable screen start -->
+    <string name="timetable_week_number">第 %d 周</string>
+    <string name="timetable_day_mon">一\n%d</string>
+    <string name="timetable_day_tue">二\n%d</string>
+    <string name="timetable_day_wed">三\n%d</string>
+    <string name="timetable_day_thu">四\n%d</string>
+    <string name="timetable_day_fri">五\n%d</string>
+    <string name="timetable_day_sat">六\n%d</string>
+    <string name="timetable_day_sun">日\n%d</string>
+    <string name="timetable_switch">Switch</string>
+    <string name="timetable_class">%s\n%s</string>
+    <string name="timetable_experiment">%s\n（实验）\n%s</string>
+    <string name="timetable_added_class">已添加课程：%s</string>
+    <string name="timetable_add_existed">上课时间冲突：%s</string>
+    <!-- fragment_timetable screen end -->
+
+    <!-- fragment_course screen start -->
+    <string name="course_action_new">添加课程</string>
+    <string name="course_action_delete">删除课程</string>
+    <string name="course_delete_ask">是否删除此课程？\n%s</string>
+    <string name="course_delete_finish">已删除课程：%s</string>
+    <!-- fragment_course screen end -->
+
+    <!-- fragment_experiment screen start -->
+    <string name="experiment_action_new">添加实验</string>
+    <string name="experiment_action_delete">删除实验</string>
+    <string name="experiment_delete_ask">是否删除此实验？\n%s</string>
+    <string name="experiment_delete_finish">已删除实验：%s</string>
+    <!-- fragment_experiment screen end -->
+
+    <!-- activity_experiment_view start -->
+    <string name="experiment_view_title">查看实验</string>
+    <string name="experiment_view_edit">编辑实验</string>
+    <string name="experiment_view_delete">删除实验</string>
+    <!-- activity_experiment_view end -->
+
+    <!-- fragment_assignment screen start -->
+    <string name="assignment_action_new">添加作业</string>
+    <string name="assignment_action_delete">删除作业</string>
+    <string name="assignment_delete_ask">是否删除此作业？\n%s</string>
+    <string name="assignment_delete_finish">已删除作业：%s</string>
+    <!-- fragment_assignment screen end -->
+
+    <!-- activity_assignment_view start -->
+    <string name="assignment_view_title">查看作业</string>
+    <string name="assignment_view_edit">编辑作业</string>
+    <string name="assignment_view_delete">删除作业</string>
+    <!-- activity_assignment_view end -->
+
+    <!-- activity_course_edit screen start -->
+    <string name="course_edit_title_new">添加新课程</string>
+    <string name="course_edit_title_modify">修改课程</string>
+    <string name="course_edit_cancel_new">是否取消添加新课程？</string>
+    <string name="course_edit_cancel_modify">是否取消修改课程信息？</string>
+    <string name="course_edit_ok">完成</string>
+    <string name="course_edit_ok_name">请输入课程名称</string>
+    <string name="course_edit_ok_new">已添加新课程：%s</string>
+    <string name="course_edit_ok_modify">已修改此课程：%s</string>
+    <string name="course_edit_type_added">已添加新课程类型：%s</string>
+    <string name="course_edit_semester_added">已添加新学期：%s</string>
+    <!-- activity_course_edit screen end -->
+
+    <!-- activity_course_view start -->
+    <string name="course_view_title">查看课程</string>
+    <string name="course_view_edit">编辑课程</string>
+    <string name="course_view_delete">删除课程</string>
+    <!-- activity_course_view end -->
+
+    <!-- activity_experiment_edit screen start -->
+    <string name="experiment_edit_cancel_new">是否取消添加实验？</string>
+    <string name="experiment_edit_cancel_modify">是否取消修改实验信息？</string>
+    <string name="experiment_edit_title_new">添加实验</string>
+    <string name="experiment_edit_title_modify">修改实验</string>
+    <string name="experiment_edit_ok">完成</string>
+    <string name="experiment_edit_ok_new">已添加实验：%s</string>
+    <string name="experiment_edit_ok_modify">已修改实验：%s</string>
+    <string name="experiment_edit_semester">所属学期：</string>
+    <string name="experiment_edit_course">所属课程：</string>
+    <string name="experiment_edit_name">实验名称：</string>
+    <string name="experiment_edit_time">截止时间：</string>
+    <string name="experiment_edit_content">实验内容：</string>
+    <!-- activity_experiment_edit screen end -->
+
+    <!-- activity_assignment_edit screen start -->
+    <string name="assignment_edit_cancel_new">是否取消添加作业？</string>
+    <string name="assignment_edit_cancel_modify">是否取消修改作业信息？</string>
+    <string name="assignment_edit_title_new">添加作业</string>
+    <string name="assignment_edit_title_modify">编辑作业</string>
+    <string name="assignment_edit_ok">OK</string>
+    <string name="assignment_edit_ok_new">已添加作业：%s</string>
+    <string name="assignment_edit_ok_modify">已修改作业：%s</string>
+    <string name="assignment_edit_semester">所属学期：</string>
+    <string name="assignment_edit_course">所属课程：</string>
+    <string name="assignment_edit_title">作业标题：</string>
+    <string name="assignment_edit_time">截止时间：</string>
+    <string name="assignment_edit_content">作业内容：</string>
+    <!-- activity_assignment_edit screen end -->
+
+    <!-- page_course_edit_information start -->
+    <string name="course_information">课程</string>
+    <string name="course_information_basic">基本信息</string>
+    <string name="course_information_name">课程名称：</string>
+    <string name="course_information_type">课程类型：</string>
+    <string name="course_information_type_common_compulsory">公共必修课</string>
+    <string name="course_information_type_common_elective">公共选修课</string>
+    <string name="course_information_type_major_compulsory">专业必修课</string>
+    <string name="course_information_type_major_elective">专业选修课</string>
+    <string name="course_information_type_new">添加类型…</string>
+
+    <string name="course_information_semester">开课学期：</string>
+    <string name="course_information_semester_new">添加学期…</string>
+    <string name="course_information_week">上课周数：</string>
+    <string name="course_information_time">上课时间：</string>
+    <string name="course_information_place">上课地点：</string>
+    <string name="course_information_teacher">任课教师：</string>
+    <string name="course_information_remarks">备注：</string>
+    <!-- page_course_edit_information end -->
+
+    <!-- dialog_course_semester start -->
+    <string name="dialog_course_semester_title">添加新学期</string>
+    <string name="dialog_course_semester_start_year">起始年</string>
+    <string name="dialog_course_semester_end_year">结束年</string>
+    <string name="dialog_course_semester_semester">学期</string>
+    <string name="dialog_course_semester_existed">学期 %s 已存在</string>
+
+    <!-- dialog_course_semester end -->
+
+    <!-- dialog_course_type start -->
+    <string name="dialog_course_type_title">添加课程类型</string>
+    <string name="dialog_course_type_name">类型名称：</string>
+    <string name="dialog_course_type_existed">课程类型 %s 已存在</string>
+    <!-- dialog_course_type end -->
+
+    <!-- dialog_course_week start -->
+    <string name="dialog_course_week_title_class">选择上课周数</string>
+    <string name="dialog_course_week_title_experiment">选择实验周数</string>
+    <string name="dialog_course_week_max">最大周数：</string>
+    <string name="dialog_course_week_all">全部</string>
+    <string name="dialog_course_week_odd">单周</string>
+    <string name="dialog_course_week_even">双周</string>
+    <string name="dialog_course_week_number">选择周数：</string>
+    <string name="course_week_overflow">最大周数需在 1-%d 之间</string>
+    <!-- dialog_course_week end -->
+
+    <!-- dialog_course_time start -->
+    <string name="dialog_course_time_title_class">选择上课时间</string>
+    <string name="dialog_course_time_title_experiment">选择实验时间</string>
+    <string name="dialog_course_time_day">星期</string>
+    <string name="dialog_course_time_first">第一节</string>
+    <string name="dialog_course_time_last">最后一节</string>
+    <string name="dialog_course_time_monday">周一</string>
+    <string name="dialog_course_time_tuesday">周二</string>
+    <string name="dialog_course_time_wednesday">周三</string>
+    <string name="dialog_course_time_thursday">周四</string>
+    <string name="dialog_course_time_friday">周五</string>
+    <string name="dialog_course_time_saturday">周六</string>
+    <string name="dialog_course_time_sunday">周日</string>
+    <string name="dialog_course_time_place">地点：</string>
+    <string name="dialog_course_time_exist">所选时间已添加在列表中</string>
+    <string name="dialog_course_time_add">长按可删除时间</string>
+    <string name="dialog_course_time_time">第 %s 节</string>
+    <!-- dialog_course_time end -->
+
+    <!-- page_course_edit_experiment start -->
+    <string name="course_experiment">实验</string>
+    <string name="course_experiment_basic">基本信息</string>
+    <string name="course_experiment_week">实验周数：</string>
+    <string name="course_experiment_time">实验时间：</string>
+    <string name="course_experiment_place">实验地点：</string>
+    <string name="course_experiment_teacher">指导教师：</string>
+    <string name="course_experiment_remarks">备注：</string>
+    <string name="course_experiment_experiments">实验</string>
+    <!-- page_course_edit_experiment end -->
+
+    <!-- page_course_edit_assignment start -->
+    <string name="course_assignment">作业</string>
+    <string name="course_assignment_basic">基本信息</string>
+    <string name="course_assignment_remarks">备注：</string>
+    <string name="course_assignment_assignments">作业</string>
+    <!-- page_course_edit_assignment end -->
+
+    <!-- action bar start -->
+    <string name="action_ok">完成</string>
+    <!-- action bar end -->
+
+    <!-- dialog start -->
+    <string name="dialog_title">提示</string>
+    <string name="btn_no">否</string>
+    <string name="btn_yes">是</string>
+    <string name="btn_add">添加</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_ok">确定</string>
+    <!-- dialog end -->
+
+    <!-- activity_reminder_edit start -->
+    <string name="reminder_edit_title">编辑事件</string>
+    <!-- activity_reminder_edit end -->
+
+    <!-- fragment_notepad start -->
+    <string name="notepad_clear">清空备忘</string>
+    <string name="notepad_clear_ask">是否清空所有备忘？\n注意：此操作无法恢复。</string>
+    <string name="notepad_clear_finish">已清空所有备忘</string>
+    <string name="notepad_search_hint">输入标题或内容进行查找…</string>
+    <string name="notepad_delete_ask">是否删除此备忘？\n%s</string>
+    <string name="notepad_delete_finish">已删除备忘：%s</string>
+    <!-- fragment_notepad end -->
+
+    <!-- activity_notepad_view start -->
+    <string name="notepad_view_title">查看备忘</string>
+    <string name="notepad_view_edit">编辑备忘</string>
+    <string name="notepad_view_delete">删除备忘</string>
+    <string name="notepad_view_time">%s</string>
+    <!-- activity_notepad_view end -->
+
+    <!-- activity_notepad_edit start -->
+    <string name="notepad_edit_cancel_new">是否取消添加新备忘？</string>
+    <string name="notepad_edit_cancel_edit">是否取消编辑此备忘？</string>
+    <string name="notepad_edit_title_new">新建备忘</string>
+    <string name="notepad_edit_title_edit">编辑备忘</string>
+    <string name="notepad_edit_ok">完成</string>
+    <string name="notepad_edit_ok_new">已添加新备忘：%s</string>
+    <string name="notepad_edit_ok_edit">已修改此备忘：%s</string>
+    <string name="notepad_edit_time">%s</string>
+    <string name="notepad_edit_hint_content">内容</string>
+    <string name="notepad_edit_hint_title">标题</string>
+    <!-- activity_notepad_edit end -->
+
+    <!-- fragment_address start -->
+    <string name="address_clear">清空网址</string>
+    <string name="address_clear_ask">是否删除所有网址？\n注意：此操作无法恢复。</string>
+    <string name="address_clear_finish">已删除所有网址</string>
+    <string name="address_search_hint">输入标题或网址进行查找…</string>
+    <string name="address_delete_ask">是否删除此网址？\n%s</string>
+    <string name="address_delete_finish">已删除网址：%s</string>
+    <string name="address_popup_open">打开网址</string>
+    <string name="address_popup_edit">编辑网址</string>
+    <string name="address_popup_delete">删除网址</string>
+    <!-- fragment_address end -->
+
+    <!-- activity_address_edit start -->
+    <string name="address_edit_cancel_new">是否取消添加新网址？</string>
+    <string name="address_edit_cancel_edit">是否取消编辑此网址？</string>
+    <string name="address_edit_title_new">添加网址</string>
+    <string name="address_edit_title_edit">编辑网址</string>
+    <string name="address_edit_ok">完成</string>
+    <string name="address_edit_ok_new">已添加新网址：%s</string>
+    <string name="address_edit_ok_edit">已修改此网址：%s</string>
+    <string name="address_edit_hint_title">网页标题</string>
+    <string name="address_edit_hint_address">网页地址</string>
+    <!-- activity_address_edit end -->
+</resources>

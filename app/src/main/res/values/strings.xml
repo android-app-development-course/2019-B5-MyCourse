@@ -1,0 +1,267 @@
+<resources>
+    <string name="app_name">MyCourse</string>
+    <!-- activity_main screen start -->
+    <string name="main_menu_timetable">Timetable</string>
+    <string name="main_menu_course">Course</string>
+    <string name="main_menu_assignment">Assignment</string>
+    <string name="main_menu_experiment">Experiment</string>
+    <string name="main_menu_reminder">Reminder</string>
+    <string name="main_menu_notepad">Notepad</string>
+    <string name="main_menu_address">Address</string>
+    <string name="main_menu_settings">Settings</string>
+    <string name="main_action_new_assignment">New Assignment</string>
+    <string name="main_action_new_experiment">New Experiment</string>
+    <string name="main_action_new_reminder">New Reminder</string>
+    <string name="main_action_new_note">New Note</string>
+    <string name="main_action_new_address">New Address</string>
+    <!-- activity_main screen end -->
+
+    <!-- fragment_timetable screen start -->
+    <string name="timetable_week_number">Week %d</string>
+    <string name="timetable_day_mon">Mon\n%d</string>
+    <string name="timetable_day_tue">Tue\n%d</string>
+    <string name="timetable_day_wed">Wed\n%d</string>
+    <string name="timetable_day_thu">Thu\n%d</string>
+    <string name="timetable_day_fri">Fri\n%d</string>
+    <string name="timetable_day_sat">Sat\n%d</string>
+    <string name="timetable_day_sun">Sun\n%d</string>
+    <string name="timetable_switch">Switch</string>
+    <string name="timetable_class">%s\n%s</string>
+    <string name="timetable_experiment">%s\n(Experiment)\n%s</string>
+    <string name="timetable_added_class">Added class: %s</string>
+    <string name="timetable_add_existed">Class clash: %s</string>
+    <!-- fragment_timetable screen end -->
+
+    <!-- fragment_course screen start -->
+    <string name="course_action_new">New Course</string>
+    <string name="course_action_delete">Delete Course</string>
+    <string name="course_delete_ask">Delete this course?\n%s</string>
+    <string name="course_delete_finish">Deleted the course: %s</string>
+    <!-- fragment_course screen end -->
+
+    <!-- fragment_experiment screen start -->
+    <string name="experiment_action_new">New Experiment</string>
+    <string name="experiment_action_delete">Delete Experiment</string>
+    <string name="experiment_delete_ask">Delete this experiment?\n%s</string>
+    <string name="experiment_delete_finish">Deleted the experiment: %s</string>
+    <!-- fragment_experiment screen end -->
+
+    <!-- activity_experiment_view start -->
+    <string name="experiment_view_title">View Experiment</string>
+    <string name="experiment_view_edit">Edit Experiment</string>
+    <string name="experiment_view_delete">Delete Experiment</string>
+    <!-- activity_experiment_view end -->
+
+    <!-- fragment_assignment screen start -->
+    <string name="assignment_action_new">New Assignment</string>
+    <string name="assignment_action_delete">Delete Assignment</string>
+    <string name="assignment_delete_ask">Delete this assignment?\n%s</string>
+    <string name="assignment_delete_finish">Deleted the assignment: %s</string>
+    <!-- fragment_assignment screen end -->
+
+    <!-- activity_assignment_view start -->
+    <string name="assignment_view_title">View Assignment</string>
+    <string name="assignment_view_edit">Edit Assignment</string>
+    <string name="assignment_view_delete">Delete Assignment</string>
+    <!-- activity_assignment_view end -->
+
+    <!-- activity_course_view start -->
+    <string name="course_view_title">View Course</string>
+    <string name="course_view_edit">Edit Course</string>
+    <string name="course_view_delete">Delete Course</string>
+    <!-- activity_course_view end -->
+
+    <!-- activity_course_edit screen start -->
+    <string name="course_edit_title_new">New Course</string>
+    <string name="course_edit_title_modify">Modify Course</string>
+    <string name="course_edit_cancel_new">Cancel addition of new course?</string>
+    <string name="course_edit_cancel_modify">Cancel modification of this course?</string>
+    <string name="course_edit_ok">OK</string>
+    <string name="course_edit_ok_name">Course name can not be empty.</string>
+    <string name="course_edit_ok_new">Added a new course: %s</string>
+    <string name="course_edit_ok_modify">Modified the course: %s</string>
+    <string name="course_edit_type_added">Added a new course type: %s</string>
+    <string name="course_edit_semester_added">Added a new semester: %s</string>
+    <!-- activity_course_edit screen end -->
+
+    <!-- activity_experiment_edit screen start -->
+    <string name="experiment_edit_cancel_new">Cancel addition of new experiment?</string>
+    <string name="experiment_edit_cancel_modify">Cancel modification of this experiment?</string>
+    <string name="experiment_edit_title_new">New Experiment</string>
+    <string name="experiment_edit_title_modify">Modify Experiment</string>
+    <string name="experiment_edit_ok">OK</string>
+    <string name="experiment_edit_ok_new">Added new experiment: %s</string>
+    <string name="experiment_edit_ok_modify">Modified experiment: %s</string>
+    <string name="experiment_edit_semester">Semester:</string>
+    <string name="experiment_edit_course">Course Name:</string>
+    <string name="experiment_edit_name">Experiment Name:</string>
+    <string name="experiment_edit_time">End Time:</string>
+    <string name="experiment_edit_content">Experiment Content:</string>
+    <!-- activity_experiment_edit screen end -->
+
+    <!-- activity_assignment_edit screen start -->
+    <string name="assignment_edit_title_new">New Assignment</string>
+    <string name="assignment_edit_cancel_new">Cancel addition of new assignment?</string>
+    <string name="assignment_edit_ok_new">Added new assignment: %s</string>
+    <string name="assignment_edit_title_modify">Modify Assignment</string>
+    <string name="assignment_edit_cancel_modify">Cancel modification of this assignment?</string>
+    <string name="assignment_edit_ok_modify">Modified assignment: %s</string>
+    <string name="assignment_edit_ok">OK</string>
+    <string name="assignment_edit_semester">Semester:</string>
+    <string name="assignment_edit_course">Course Name:</string>
+    <string name="assignment_edit_title">Assignment Title:</string>
+    <string name="assignment_edit_time">End Time:</string>
+    <string name="assignment_edit_content">Assignment Content:</string>
+    <!-- activity_assignment_edit screen end -->
+
+    <!-- page_course_edit_information start -->
+    <string name="course_information">Information</string>
+    <string name="course_information_basic">Basic Information</string>
+    <string name="course_information_name">Course Name:</string>
+    <string name="course_information_type">Course Type:</string>
+    <string name="course_information_type_common_compulsory">Common Compulsory</string>
+    <string name="course_information_type_common_elective">Common Elective</string>
+    <string name="course_information_type_major_compulsory">Major Compulsory</string>
+    <string name="course_information_type_major_elective">Major Elective</string>
+    <string name="course_information_type_new">New type…</string>
+    <string name="course_information_semester">Semester:</string>
+    <string name="course_information_semester_new">New semester…</string>
+    <string name="course_information_week">Week Number:</string>
+    <string name="course_information_time">Class Time:</string>
+    <string name="course_information_place">Class Place:</string>
+    <string name="course_information_teacher">Teacher Name:</string>
+    <string name="course_information_remarks">Remarks:</string>
+    <!-- page_course_edit_information end -->
+
+    <!-- dialog_course_semester start -->
+    <string name="dialog_course_semester_title">New semester</string>
+    <string name="dialog_course_semester_start_year">Start Year</string>
+    <string name="dialog_course_semester_end_year">End Year</string>
+    <string name="dialog_course_semester_semester">Semester</string>
+    <string name="dialog_course_semester_existed">Semester %s already exists</string>
+    <!-- dialog_course_semester ned -->
+
+    <!-- dialog_course_type start -->
+    <string name="dialog_course_type_title">New course type</string>
+    <string name="dialog_course_type_name">Type Name:</string>
+    <string name="dialog_course_type_existed">Type %s already exists</string>
+    <!-- dialog_course_type_end -->
+
+    <!-- dialog_course_week start -->
+    <string name="dialog_course_week_title_class">Choose Week Numbers</string>
+    <string name="dialog_course_week_title_experiment">Choose Week Numbers</string>
+    <string name="dialog_course_week_max">Max Week:</string>
+    <string name="dialog_course_week_all">All</string>
+    <string name="dialog_course_week_odd">Odd</string>
+    <string name="dialog_course_week_even">Even</string>
+    <string name="dialog_course_week_number">Weeks:</string>
+    <string name="course_week_overflow">Max week should be between 1-%d</string>
+    <!-- dialog_course_week end -->
+
+    <!-- dialog_course_time start -->
+    <string name="dialog_course_time_title_class">Select Class Time</string>
+    <string name="dialog_course_time_title_experiment">Select Experiment Time</string>
+    <string name="dialog_course_time_day">Day</string>
+    <string name="dialog_course_time_first">First Lesson</string>
+    <string name="dialog_course_time_last">Last Lesson</string>
+    <string name="dialog_course_time_monday">Monday</string>
+    <string name="dialog_course_time_tuesday">Tuesday</string>
+    <string name="dialog_course_time_wednesday">Wednesday</string>
+    <string name="dialog_course_time_thursday">Thursday</string>
+    <string name="dialog_course_time_friday">Friday</string>
+    <string name="dialog_course_time_saturday">Saturday</string>
+    <string name="dialog_course_time_sunday">Sunday</string>
+    <string name="dialog_course_time_place">Place:</string>
+    <string name="dialog_course_time_exist">The time selected already exists in the list.</string>
+    <string name="dialog_course_time_add">Long press to delete.</string>
+    <string name="dialog_course_time_time">Class %s</string>
+    <!-- dialog_course_time end -->
+
+    <!-- page_course_edit_experiment start -->
+    <string name="course_experiment">Experiment</string>
+    <string name="course_experiment_basic">Basic Information</string>
+    <string name="course_experiment_week">Week Number:</string>
+    <string name="course_experiment_time">Experiment Time:</string>
+    <string name="course_experiment_place">Experiment Place:</string>
+    <string name="course_experiment_teacher">Teacher Name:</string>
+    <string name="course_experiment_remarks">Remarks:</string>
+    <string name="course_experiment_experiments">Experiments</string>
+    <!-- page_course_edit_experiment end -->
+
+    <!-- page_course_edit_assignment start -->
+    <string name="course_assignment">Assignment</string>
+    <string name="course_assignment_basic">Basic Information</string>
+    <string name="course_assignment_remarks">Remarks:</string>
+    <string name="course_assignment_assignments">Assignments</string>
+    <!-- page_course_edit_assignment end -->
+
+    <!-- action bar start -->
+    <string name="action_ok">OK</string>
+    <!-- action bar end -->
+
+    <!-- dialog start -->
+    <string name="dialog_title">Message</string>
+    <string name="btn_no">No</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_ok">OK</string>
+    <!-- dialog end -->
+
+    <!-- activity_reminder_edit start -->
+    <string name="reminder_edit_title">Edit Reminder</string>
+    <!-- activity_reminder_edit end -->
+
+    <!-- fragment_notepad start -->
+    <string name="notepad_clear">Delete All</string>
+    <string name="notepad_clear_ask">Delete all the notes?\nATTENTION: This operation can not be revoked.</string>
+    <string name="notepad_clear_finish">Deleted all the notes</string>
+    <string name="notepad_search_hint">Search note…</string>
+    <string name="notepad_delete_ask">Delete this note?\n%s</string>
+    <string name="notepad_delete_finish">Deleted the note: %s</string>
+    <!-- fragment_notepad end -->
+
+    <!-- activity_notepad_view start -->
+    <string name="notepad_view_title">View Note</string>
+    <string name="notepad_view_edit">Edit Note</string>
+    <string name="notepad_view_delete">Delete Note</string>
+    <string name="notepad_view_time">%s</string>
+    <!-- activity_notepad_view end -->
+
+    <!-- activity_notepad_edit start -->
+    <string name="notepad_edit_cancel_new">Cancel addition of new note?</string>
+    <string name="notepad_edit_cancel_edit">Cancel edition of this note?</string>
+    <string name="notepad_edit_title_new">New Note</string>
+    <string name="notepad_edit_title_edit">Edit Note</string>
+    <string name="notepad_edit_ok">OK</string>
+    <string name="notepad_edit_ok_new">Added a new note: %s</string>
+    <string name="notepad_edit_ok_edit">Modified the note: %s</string>
+    <string name="notepad_edit_time">%s</string>
+    <string name="notepad_edit_hint_title">Title</string>
+    <string name="notepad_edit_hint_content">Content</string>
+    <!-- activity_notepad_edit end -->
+
+    <!-- fragment_address start -->
+    <string name="address_clear">Clear Addresses</string>
+    <string name="address_clear_ask">Delete all the addresses?\nATTENTION: This operation can not be revoked.</string>
+    <string name="address_clear_finish">Deleted all the addresses</string>
+    <string name="address_search_hint">Search address…</string>
+    <string name="address_delete_ask">Delete this address?\n%s</string>
+    <string name="address_delete_finish">Deleted the address: %s</string>
+    <string name="address_popup_open">Open Address</string>
+    <string name="address_popup_edit">Edit Address</string>
+    <string name="address_popup_delete">Delete Address</string>
+    <!-- fragment_address end -->
+
+    <!-- activity_address_edit start -->
+    <string name="address_edit_cancel_new">Cancel addition of new address?</string>
+    <string name="address_edit_cancel_edit">Cancel edition of this address?</string>
+    <string name="address_edit_title_new">New Address</string>
+    <string name="address_edit_title_edit">Edit Address</string>
+    <string name="address_edit_ok">OK</string>
+    <string name="address_edit_ok_new">Added a new address: %s</string>
+    <string name="address_edit_ok_edit">Modified the address: %s</string>
+    <string name="address_edit_hint_title">Title</string>
+    <string name="address_edit_hint_address">Address</string>
+    <!-- activity_address_edit end -->
+</resources>

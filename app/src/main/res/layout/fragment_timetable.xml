@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_timetable"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/borderBackground"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_day"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/course_day_height"
+        android:background="@color/lightBackground"
+        android:layout_marginBottom="@dimen/spacing_1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_corner"
+            android:layout_width="@dimen/course_class_no_width"
+            android:layout_height="match_parent"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/borderBackground"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/layout_class_no"
+                android:layout_width="@dimen/course_class_no_width"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/spacing_1">
+
+            </LinearLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:id="@+id/grid_timetable"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/spacing_1"
+                app:columnCount="7"
+                app:orientation="horizontal">
+
+            </androidx.gridlayout.widget.GridLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

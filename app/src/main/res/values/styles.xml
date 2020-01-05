@@ -1,0 +1,209 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:textColor">@color/textCommon</item>
+        <item name="android:editTextColor">@color/textCommon</item>
+        <item name="actionOverflowMenuStyle">@style/OverlapAnchorMenu</item>
+    </style>
+
+    <style name="OverlapAnchorMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:textColor">@color/textCommon</item>
+        <item name="actionOverflowMenuStyle">@style/OverlapAnchorMenu</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- course edit activity -->
+    <style name="TabLayoutText" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="TableRowAttribute">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextViewAttribute" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">11dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/font_15</item>
+    </style>
+
+    <style name="TextViewValue" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">11dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">@dimen/font_15</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingEnd">5dp</item>
+    </style>
+
+    <style name="EditTextAttribute" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">@dimen/font_15</item>
+        <item name="android:layout_marginLeft">@dimen/spacing_10</item>
+        <item name="android:layout_marginStart">@dimen/spacing_10</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="SpinnerAttribute" parent="Widget.AppCompat.Spinner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/font_15</item>
+        <item name="android:layout_marginLeft">@dimen/spacing_10</item>
+        <item name="android:layout_marginStart">@dimen/spacing_10</item>
+    </style>
+
+    <style name="TextViewDialogTitle" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/spacing_2</item>
+        <item name="android:padding">@dimen/spacing_10</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/font_15</item>
+        <item name="android:background">@color/lightBackground</item>
+    </style>
+
+    <style name="TextViewDialog" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="EditTextDialog" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="CheckBoxDialog" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">@dimen/font_15</item>
+    </style>
+
+    <style name="ButtonDialog" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginRight">@dimen/spacing_1</item>
+        <item name="android:layout_marginLeft">@dimen/spacing_1</item>
+    </style>
+
+    <!-- experiment start -->
+    <style name="TextViewExperimentDark" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/colorExperimentDark</item>
+        <item name="android:textSize">@dimen/experiment_text_size_normal</item>
+    </style>
+
+    <style name="TextViewExperimentLight" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/colorExperimentLight</item>
+        <item name="android:textSize">@dimen/experiment_text_size_small</item>
+    </style>
+    <!-- experiment end -->
+
+    <!-- assignment start -->
+    <style name="TextViewAssignmentDark" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/colorAssignmentDark</item>
+        <item name="android:textSize">@dimen/assignment_text_size_normal</item>
+    </style>
+
+    <style name="TextViewAssignmentLight" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/colorAssignmentLight</item>
+        <item name="android:textSize">@dimen/assignment_text_size_small</item>
+    </style>
+    <!-- assignment end -->
+
+    <!-- reminder start -->
+    <style name="FullScreenDialog" parent="android:Theme.Dialog">
+
+        <!-- 窗口设为无标题 -->
+        <item name="android:windowNoTitle">true</item>
+
+        <!-- 窗口浮现在activity之上 -->
+        <item name="android:windowIsFloating">false</item>
+
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@color/title_transparent_black</item>
+
+        <!-- 背景模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+
+        <!-- 全屏 -->
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <style name="horizontal_line_style">
+        <item name="android:background">@color/line_and_outline_grey</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.4dp</item>
+    </style>
+
+    <style name="Theme_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- reminder end -->
+
+    <!-- notepad start -->
+    <style name="TextViewNoteDark" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/colorNoteDark</item>
+        <item name="android:textSize">@dimen/note_text_size_normal</item>
+    </style>
+
+    <style name="TextViewNoteLight" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/colorNoteLight</item>
+        <item name="android:textSize">@dimen/note_text_size_small</item>
+    </style>
+    <!-- notepad end -->
+
+    <!-- address start -->
+    <style name="TextViewAddressDark" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/colorAddressDark</item>
+        <item name="android:textSize">@dimen/address_text_size_normal</item>
+    </style>
+
+    <style name="TextViewAddressLight" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/colorAddressLight</item>
+        <item name="android:textSize">@dimen/address_text_size_small</item>
+    </style>
+    <!-- address end -->
+</resources>

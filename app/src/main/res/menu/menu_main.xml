@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/main_action_new_experiment"
+        app:showAsAction="never"
+        android:icon="@drawable/experiment"
+        android:title="@string/main_action_new_experiment" />
+    <item
+        android:id="@+id/main_action_new_assignment"
+        app:showAsAction="never"
+        android:icon="@drawable/assignment"
+        android:title="@string/main_action_new_assignment" />
+    <item
+        android:id="@+id/main_action_new_reminder"
+        app:showAsAction="never"
+        android:icon="@drawable/reminder"
+        android:title="@string/main_action_new_reminder" />
+    <item
+        android:id="@+id/main_action_new_note"
+        app:showAsAction="never"
+        android:icon="@drawable/notepad"
+        android:title="@string/main_action_new_note" />
+
+    <item
+        android:id="@+id/main_action_new_address"
+        app:showAsAction="never"
+        android:icon="@drawable/notepad"
+        android:title="@string/main_action_new_address" />
+</menu>

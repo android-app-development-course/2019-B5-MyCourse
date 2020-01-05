@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/borderBackground"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context=".course.CourseEditActivity">
+
+    <include layout="@layout/app_bar_edit" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs_course_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightBackground"
+        app:tabIndicatorColor="@color/colorPrimary"
+        app:tabTextAppearance="@style/TabLayoutText"
+        app:tabTextColor="@color/textCommon" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_course_edit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/spacing_2"
+        android:background="@color/lightBackground" />
+</LinearLayout>

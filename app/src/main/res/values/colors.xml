@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- theme -->
+    <color name="colorPrimary">#0066CC</color>
+    <color name="colorPrimaryDark">@color/colorPrimary</color>
+    <color name="colorAccent">#666666</color>
+
+    <color name="lightBackground">#F0F0F0</color>
+    <color name="darkBackground">#DDDDDD</color>
+    <color name="borderBackground">#CCCCCC</color>
+
+    <color name="textCommon">#404040</color>
+    <color name="textGray">#707070</color>
+    <color name="textLight">#F0F0F0</color>
+
+    <!-- gradient -->
+    <color name="colorStart">@color/colorPrimary</color>
+    <color name="colorCenter">@color/colorPrimary</color>
+    <color name="colorEnd">@color/colorPrimary</color>
+
+    <!-- bar -->
+    <color name="barTitle">#FFFFFF</color>
+    <color name="barBackground">@color/colorPrimary</color>
+
+    <!-- gray scale -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- state -->
+    <color name="press_blue">#BBDDFF</color>
+    <color name="state_blue">#DDEEFF</color>
+
+    <!-- experiment -->
+    <color name="colorExperimentDark">#505050</color>
+    <color name="colorExperimentLight">#9F9F9F</color>
+
+    <!-- assignment -->
+    <color name="colorAssignmentDark">#505050</color>
+    <color name="colorAssignmentLight">#9F9F9F</color>
+
+    <!-- reminder -->
+    <color name="text1">#4D4D4D</color>
+    <color name="black_semi">#3B3B3B</color>
+    <color name="grey">#14d0d0d0</color>
+    <color name="title_transparent_black">#22000000</color>
+    <color name="light_black">#141414</color>
+    <color name="line_and_outline_grey">#d9d9d9</color>
+
+    <!-- notepad -->
+    <color name="colorNoteDark">#505050</color>
+    <color name="colorNoteLight">#9F9F9F</color>
+
+    <!-- address -->
+    <color name="colorAddressDark">#505050</color>
+    <color name="colorAddressLight">#9F9F9F</color>
+</resources>

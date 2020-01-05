@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.mycourse">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".assignment.AssignmentViewActivity"></activity>
+        <activity
+            android:name=".assignment.AssignmentEditActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".address.AddressEditActivity" />
+        <activity android:name=".notepad.NoteEditActivity" />
+        <activity android:name=".notepad.NoteViewActivity" />
+        <activity android:name=".reminder.ReminderAlarmActivity" />
+        <activity android:name=".reminder.ReminderEditActivity" />
+        <activity
+            android:name=".reminder.ReminderAddActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service
+            android:name=".reminder.AlarmService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.android.mycourse.alarm" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".experiment.ExperimentEditActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".experiment.ExperimentViewActivity" />
+        <activity
+            android:name=".course.CourseEditActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".course.CourseViewActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

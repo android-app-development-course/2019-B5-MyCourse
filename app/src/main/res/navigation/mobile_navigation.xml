@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_timetable">
+
+    <fragment
+        android:id="@+id/nav_timetable"
+        android:name="com.android.mycourse.timetable.TimetableFragment"
+        android:label="@string/main_menu_timetable"
+        tools:layout="@layout/fragment_timetable" />
+
+    <fragment
+        android:id="@+id/nav_course"
+        android:name="com.android.mycourse.course.CourseFragment"
+        android:label="@string/main_menu_course"
+        tools:layout="@layout/fragment_course" />
+
+    <fragment
+        android:id="@+id/nav_assignment"
+        android:name="com.android.mycourse.assignment.AssignmentFragment"
+        android:label="@string/main_menu_assignment"
+        tools:layout="@layout/fragment_assignment" />
+
+    <fragment
+        android:id="@+id/nav_experiment"
+        android:name="com.android.mycourse.experiment.ExperimentFragment"
+        android:label="@string/main_menu_experiment"
+        tools:layout="@layout/fragment_experiment" />
+
+    <fragment
+        android:id="@+id/nav_reminder"
+        android:name="com.android.mycourse.reminder.ReminderFragment"
+        android:label="@string/main_menu_reminder"
+        tools:layout="@layout/fragment_reminder" />
+
+    <fragment
+        android:id="@+id/nav_notepad"
+        android:name="com.android.mycourse.notepad.NotepadFragment"
+        android:label="@string/main_menu_notepad"
+        tools:layout="@layout/fragment_notepad" />
+
+    <fragment
+        android:id="@+id/nav_address"
+        android:name="com.android.mycourse.address.AddressFragment"
+        android:label="@string/main_menu_address"
+        tools:layout="@layout/fragment_address" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.android.mycourse.settings.SettingsFragment"
+        android:label="@string/main_menu_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

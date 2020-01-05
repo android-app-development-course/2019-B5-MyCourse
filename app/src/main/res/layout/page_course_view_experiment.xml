@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:background="@color/lightBackground"
+            android:stretchColumns="1">
+            <!-- 实验周数 -->
+            <TableRow style="@style/TableRowAttribute">
+
+                <TextView
+                    style="@style/TextViewAttribute"
+                    android:text="@string/course_experiment_week" />
+
+                <TextView
+                    android:id="@+id/tv_course_experiment_week"
+                    style="@style/TextViewValue" />
+            </TableRow>
+            <!-- 实验时间 -->
+            <TableRow style="@style/TableRowAttribute">
+
+                <TextView
+                    style="@style/TextViewAttribute"
+                    android:text="@string/course_experiment_time" />
+
+                <TextView
+                    android:id="@+id/tv_course_experiment_time"
+                    style="@style/TextViewValue" />
+            </TableRow>
+            <!-- 实验地点 -->
+            <TableRow style="@style/TableRowAttribute">
+
+                <TextView
+                    style="@style/TextViewAttribute"
+                    android:text="@string/course_experiment_place" />
+
+                <TextView
+                    android:id="@+id/tv_course_experiment_place"
+                    style="@style/TextViewValue" />
+            </TableRow>
+            <!-- 指导教师 -->
+            <TableRow style="@style/TableRowAttribute">
+
+                <TextView
+                    style="@style/TextViewAttribute"
+                    android:text="@string/course_experiment_teacher" />
+
+                <TextView
+                    android:id="@+id/tv_course_experiment_teacher"
+                    style="@style/TextViewValue" />
+            </TableRow>
+            <!-- 备注 -->
+            <TableRow style="@style/TableRowAttribute">
+
+                <TextView
+                    style="@style/TextViewAttribute"
+                    android:layout_span="2"
+                    android:paddingBottom="0dp"
+                    android:text="@string/course_experiment_remarks" />
+
+            </TableRow>
+
+            <TableRow style="@style/TableRowAttribute">
+
+                <TextView
+                    android:id="@+id/tv_course_experiment_remarks"
+                    style="@style/TextViewValue"
+                    android:layout_span="2"
+                    android:gravity="start"
+                    android:paddingStart="5dp"
+                    android:paddingLeft="5dp" />
+            </TableRow>
+        </TableLayout>
+        <!-- 实验 -->
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="2dp"-->
+<!--            android:background="@color/lightBackground"-->
+<!--            android:paddingLeft="@dimen/spacing_15"-->
+<!--            android:paddingRight="@dimen/spacing_15">-->
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/ib_course_experiment_add"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:background="@drawable/ic_add_black_24dp" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:padding="@dimen/spacing_10"-->
+<!--                android:text="@string/course_experiment_experiments"-->
+<!--                android:textSize="@dimen/font_15" />-->
+<!--        </RelativeLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/ll_course_experiment_experiments"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginTop="2dp"-->
+<!--            android:background="@color/lightBackground"-->
+<!--            android:orientation="vertical">-->
+
+<!--        </LinearLayout>-->
+    </LinearLayout>
+</ScrollView>

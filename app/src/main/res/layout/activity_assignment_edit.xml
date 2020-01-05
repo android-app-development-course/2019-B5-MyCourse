@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_assignment_edit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".assignment.AssignmentEditActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/app_bar_edit" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/lightBackground"
+            android:paddingStart="@dimen/spacing_15"
+            android:paddingLeft="@dimen/spacing_15"
+            android:paddingTop="@dimen/spacing_10"
+            android:paddingEnd="@dimen/spacing_15"
+            android:paddingRight="@dimen/spacing_15"
+            android:paddingBottom="@dimen/spacing_10"
+            android:stretchColumns="1">
+            <!-- 学期 -->
+            <TableRow style="@style/TableRowAttribute">
+
+                <TextView
+                    style="@style/TextViewAttribute"
+                    android:text="@string/assignment_edit_semester" />
+
+                <Spinner
+                    android:id="@+id/spn_assignment_semester"
+                    style="@style/SpinnerAttribute" />
+            </TableRow>
+            <!-- 课程名称 -->
+            <TableRow style="@style/TableRowAttribute">
+
+                <TextView
+                    style="@style/TextViewAttribute"
+                    android:layout_height="match_parent"
+                    android:text="@string/assignment_edit_course" />
+
+                <Spinner
+                    android:id="@+id/spn_assignment_course"
+                    style="@style/SpinnerAttribute" />
+            </TableRow>
+            <!-- 作业标题 -->
+            <TableRow style="@style/TableRowAttribute">
+
+                <TextView
+                    style="@style/TextViewAttribute"
+                    android:text="@string/assignment_edit_title" />
+
+                <EditText
+                    android:id="@+id/et_assignment_title"
+                    style="@style/EditTextAttribute" />
+            </TableRow>
+            <!-- 截止时间 -->
+            <TableRow style="@style/TableRowAttribute">
+
+                <TextView
+                    style="@style/TextViewAttribute"
+                    android:text="@string/assignment_edit_time" />
+
+                <EditText
+                    android:id="@+id/et_assignment_time"
+                    style="@style/EditTextAttribute" />
+            </TableRow>
+            <!-- 作业内容 -->
+            <TextView
+                style="@style/TextViewAttribute"
+                android:text="@string/assignment_edit_content" />
+
+            <EditText
+                android:id="@+id/et_assignment_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/et_background"
+                android:gravity="top"
+                android:padding="5dp"
+                android:textSize="@dimen/font_15" />
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>
